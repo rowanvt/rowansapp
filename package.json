@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowanvt/rowansapp.git"
+  },
+  "author": "Rowan Van Tromp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rowanvt/rowansapp/issues"
+  },
+  "homepage": "https://github.com/rowanvt/rowansapp#readme"
+}
