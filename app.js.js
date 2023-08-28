@@ -13,11 +13,6 @@ app.get('/', (req, res) => {
   res.send('Hello, Express!');
 });
 
-// Define a route for the "/sample" page
-app.get('/sample', (req, res) => {
-  res.send('This is a sample page.');
-});
-
 // Define a route for handling webhook data
 app.post('/webhook/:customerId', async (req, res) => {
   const customerId = req.params.customerId;
